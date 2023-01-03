@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Laila:300,regular,500,600,700);
+
+#col{
+    background-color: #C38787 !important;
+ padding: 10px;
+ margin-top: 30px;
+ margin-bottom: 20px;
+}
+
+.orderh3{
+    color: white !important;
+   font-family: Laila;
+}
+
+.orderh2{
+    text-align: center;
+    color: #C38787;
+    font-family: Laila;
+    margin-top: 20px;
+}
+
+.orderh31{
+    color: white !important;
+   font-family: Laila;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.orderview{
+    border: none;
+    background-color: white;
+    color: #C38787;
+    font-size: 20px;
+}
+
+.orderviewh3{
+    font-family: Laila;
+    text-align: center;
+    color: #C38787;
+    font-size: 30px;
+}
+.orderviewh4{
+    color: #C38787;
+    font-family: Laila;
+}
+
+#orderview{
+    color: #C38787;
+}
+
+#orderviewp{
+    font-family: Laila;
+    font-size: 18px;
+}
+
+.cancel{
+    background-color: #C38787;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.orderviewback{
+    background-color: #C38787;
+    color: white;
+    border: none;
+    font-size: 20x;
+    font-family: Laila;
+    font-weight: bold;
+    padding: 10px;
+}

@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Laila:300,regular,500,600,700);
+
+#carth2{
+    color: #C38787;
+    font-family: Laila;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#carts-img{
+    width: 300px;
+    height: 150px;
+}
+
+#carts{
+    margin-top: 30px;
+}
+
+.cartsh3{
+    margin-top: 10px;
+color: #C38787;
+font-family: Laila;
+font-size: 20px;
+}
+.cartsh4{
+    color: #C38787;
+    font-family: Laila;
+    font-size: 20px;
+    margin-top: 10px;
+    }
+
+    .cartsdiv{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .butscarts{
+        background-color: #C38787;
+        color: #FFFFFF;
+        border: none;
+        margin-left: 20px;
+        height: 40px;
+    }
+
+    .butscartse{
+        background-color: #C38787;
+        color: #FFFFFF;
+        border: none;
+        margin-right: 20px;
+        height: 40px;
+    }
+    .cartspp{
+        color: #C38787;
+margin-top: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #carts2{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+    .cartsh42{
+        color: #C38787;
+        font-size: 23px;
+        font-family: Laila;
+        font-weight: bold;
+    }
+
+    .df{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      
+        height: 20px !important;
+    }
+    .cartsadds{
+        border: none;
+        background-color: #C38787;
+        color: #FFFFFF;
+        font-family: Laila;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    .addressp{
+        font-family: Laila;
+        font-size: 20px;
+        color: #C38787;
+    }
+
+
+    .cartstotalpr{
+        font-family: Laila;
+        font-size: 23px;
+        color: #C38787;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .check{
+        background-color: #C38787;
+        color: #FFFFFF;
+        border: none;
+        font-size: 23px;
+        font-family: Laila;
+        padding: 5px;
+    }
+
+    .addressh1q{
+    font-family: Laila;
+    font-weight: bold;
+    font-size: 23px;
+    color: #C38787;
+    text-align: end;
+    }
+    .zzz{
+        display: flex;
+        flex-direction: row;
+    gap: 20px;
+    }
+
+    #carts{
+        margin-top: 15px;
+    }
+
+    .empty{
+        color: #C38787;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        font-family: Laila;
+        font-weight: bold;
+    }

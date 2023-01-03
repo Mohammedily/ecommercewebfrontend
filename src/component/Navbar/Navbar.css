@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Laila:300,regular,500,600,700);
+
+#navbar-brands{
+  font-family: Laila !important;
+  font-size: 36px !important;
+  font-weight: bold !important;
+  color: #C38787 !important;
+}
+
+#nav-link{
+    
+    font-family: Laila !important;
+    font-size: 23px !important;
+    font-weight: bold !important;
+    color: #C38787 !important;
+}
+#asazz{
+  text-align: center !important;
+}
+#naz{
+  margin-right: 20px;
+}
+
+
+  .sho{
+    font-size: 40px !important;
+    margin-bottom: 10px;
+  }
+
+  .as{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+  
+
+  }
+
+  #nav-link {
+    display: inline-block;
+    position: relative;
+    color: #C38787;
+  }
+  
+  #nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 3px;
+    background-color: #C38787;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  #nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .aco{
+    font-size: 50px !important;
+    color: #C38787;
+    margin-right: 20px;
+  }
+  .log{
+  border: none;
+  font-family: Laila;
+  background-color: #C38787;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  }
+
+  
+
+  .ass{
+    display: flex;
+    flex-direction: row;
+  }
+  .logs{
+    border: none;
+    font-family: Laila;
+    background-color: #C38787;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+  
+    }
+   

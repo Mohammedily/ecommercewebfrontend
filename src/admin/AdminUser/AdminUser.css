@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Laila:300,regular,500,600,700);
+
+.accs{
+    color: #C38787;
+    font-size: 70px !important;
+ margin-top: 30px;
+ text-align: center;
+}
+
+#cases{
+  margin-top: 30px;
+}
+
+.az{
+    margin-top: 90px !important;
+}
+
+.userh4{
+    color: #C38787;
+    font-family: Laila;
+    font-weight: bold;
+}
+
+.userbutton{
+    border:none;
+   background-color: #C38787;
+   color: white;
+   font-family: Laila;
+   font-weight: bold;
+   padding: 5px;
+}

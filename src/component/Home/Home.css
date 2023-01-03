@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Laila:300,regular,500,600,700);
+
+
+.homeh1{
+  font-family: Laila;
+  font-weight: bold;
+  font-size: 64px;
+  color: #C38787;
+  margin-bottom: 20px;
+}
+.homeh4{
+    font-family: Laila;
+    color: #C38787;
+    font-size: 20px;
+    font-weight: medium;
+    margin-bottom: 50px !important;
+}
+#ro{
+  
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#aszimg{
+    margin-top: 20px;
+}
+.homea{
+    font-family: Laila;
+    color: #FFFFFF;
+    background-color: #C38787 !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 50px !important;
+    margin-bottom: 70px !important;
+}
+
+.homea:hover{
+ color: #FFFFFF;
+}
+.sim{
+   font-family: Laila;
+   color: #C38787;
+   margin-left: 20px;
+   font-size: 35px;
+   font-weight: bold; 
+   margin-top: 60px;
+}
+
+#case{
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+   
+}
+#aszze{
+    padding: 20px;
+    -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+}
+#tit{
+    font-family: Laila;
+    font-size: 23px;
+    color: #C38787;
+    font-weight: bold;
+}
+
+.co{
+ text-align: center;
+}
+
+.soc{
+    background-color: #C38787;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#soc{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+#hoimge{
+    width: 375px;
+    height: 250px;
+}
+
+.ske{
+    width: 375px;
+    height: 250px;
+}
+.ss{
+    width: 120px !important;
+    height: 40px;
+    border-radius: 20px !important;
+}

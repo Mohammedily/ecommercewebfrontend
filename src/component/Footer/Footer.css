@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Laila:300,regular,500,600,700);
+
+.footer{
+    background-color: #C38787;
+}
+.footh2{
+    font-family: Laila;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#az{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footh3{
+    font-family: Laila;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}

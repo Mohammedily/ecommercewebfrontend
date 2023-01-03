@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Laila:300,regular,500,600,700);
+
+#menu{
+    color: #C38787;
+    font-size: 40px;
+}
+
+#navbar-branda{
+    color: #C38787;
+    font-size: 30px;
+    font-family: Laila;
+    font-weight: bold;
+}
+
+#navlinks{
+    color: #C38787;
+    font-size: 25px;
+    font-family: Laila;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#navlinks:hover{
+    background-color: #C38787;
+    color: #FFFFFF;
+}
+
+#offcanvasNavbarLabel{
+    color: #C38787;
+    font-size: 30px;
+    font-family: Laila;
+    font-weight: bold;
+}
+
+#reset{
+    color: #C38787 !important;
+    font-size: 25px;
+    font-family: Laila;
+    font-weight: bold;
+}
+
+#pos{
+    color: #C38787 !important;
+    font-size: 20px;
+    font-family: Laila;
+    font-weight: bold;
+}
+input {
+    font-family: Laila !important;
+    color: #C38787 !important;
+  }
+
+  textarea{
+    font-family: Laila !important;
+    color: #C38787 !important;
+    height: 120px;
+  }
+
+  #post{
+    background-color: #C38787;
+    color: #FFFFFF;
+    font-family: Laila;
+  }

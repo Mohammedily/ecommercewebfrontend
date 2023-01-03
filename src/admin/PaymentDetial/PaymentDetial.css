@@ -1,0 +1,18 @@
+#table{
+    margin-top: 90px;
+}
+thead{
+  background-color: #C38787 !important;
+}
+td{
+     color: #C38787 !important;
+}
+
+.sub{
+    border: none;
+    background-color: #C38787;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
