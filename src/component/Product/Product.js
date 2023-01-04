@@ -11,7 +11,7 @@ function Product() {
 
     useEffect(() => {
       setTimeout(() => {
-        fetch(`https://ecommerce-qrcj.onrender.com/api/product/get`)
+        fetch(`https://ecommercewebbackend.vercel.app/api/product/get`)
         .then((res) => res.json())
         .then((product) => { setData(product.product)
            setISLodaing(false) })

@@ -9,7 +9,7 @@ function PaymentDetial() {
    
 
     useEffect(() => {
-        fetch(`https://ecommerce-qrcj.onrender.com/api/order/get`)
+        fetch(`https://ecommercewebbackend.vercel.app/api/order/get`)
         .then((res) => res.json())
         .then((asd) => setPayment(asd.as));
     },[]);
@@ -55,7 +55,7 @@ function StatusEnter({pays}) {
 
     e.preventDefault();
 
-    const up = axios.put(`http://localhost:1000/api/order/update/${pays._id}`,{
+    const up = axios.put(`https://ecommercewebbackend.vercel.app/api/order/update/${pays._id}`,{
         status
     });
     return up;

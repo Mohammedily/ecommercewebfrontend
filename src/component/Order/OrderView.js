@@ -23,20 +23,20 @@ function OrderView() {
         });
 
     useEffect(() => {
-      fetch(`https://ecommerce-qrcj.onrender.com/api/order/get/${id}`)
+      fetch(`https://ecommercewebbackend.vercel.app/api/order/get/${id}`)
       .then((res) => res.json())
       .then((asd) => setOrder(asd.ords))
     },[id])
 // console.log(order);
 
 useEffect(() => {
-    fetch(`https://ecommerce-qrcj.onrender.com/api/order/get/${id}`)
+    fetch(`https://ecommercewebbackend.vercel.app/api/order/get/${id}`)
     .then((res) => res.json())
     .then((asd) => setAddress(asd.ords.address))
   },[id]);
 
   useEffect(() => {
-    fetch(`https://ecommerce-qrcj.onrender.com/api/order/get/${id}`)
+    fetch(`https://ecommercewebbackend.vercel.app/api/order/get/${id}`)
     .then((res) => res.json())
     .then((asd) => setCart(asd.ords.product))
   },[id]);
@@ -44,7 +44,7 @@ useEffect(() => {
   console.log(card);
 
   function Cancel() {
-    const del = axios.delete(`https://ecommerce-qrcj.onrender.com/api/order/delete/${order._id}`);
+    const del = axios.delete(`https://ecommercewebbackend.vercel.app/api/order/delete/${order._id}`);
     notify()
     setTimeout(() => {
      window.location.href=`/order`;

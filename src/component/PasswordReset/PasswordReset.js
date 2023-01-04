@@ -8,7 +8,7 @@ function PasswordReset() {
     const [validUrl, setValidUrl] = useState(false);
 	const [password, setPassword] = useState("");
 	const param = useParams();
-	const url = `https://ecommerce-qrcj.onrender.com/api/sign/${param.id}/${param.token}`;
+	const url = `https://ecommercewebbackend.vercel.app/api/sign/${param.id}/${param.token}`;
 
 
     const notify = () => toast.success('Password Change Successfully', {

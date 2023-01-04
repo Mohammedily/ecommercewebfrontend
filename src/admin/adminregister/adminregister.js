@@ -25,7 +25,7 @@ function Adminregister() {
     e.preventDefault();
 
     try {
-        const posts = await axios.post(`https://ecommerce-qrcj.onrender.com/api/admin/signup`, 
+        const posts = await axios.post(`https://ecommercewebbackend.vercel.app/api/admin/signup`, 
         {username, email, password});
         if(posts.status === 201){
           notify() 

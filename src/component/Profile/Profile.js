@@ -32,13 +32,13 @@ function Profile() {
         });
 
     useEffect(() => {
-        fetch(`https://ecommerce-qrcj.onrender.com/api/sign/${id}`)
+        fetch(`https://ecommercewebbackend.vercel.app/api/sign/${id}`)
         .then((res) => res.json())
         .then((asd) => setProf(asd.user));
     }, [id]);
 
     useEffect(() => {
-        fetch(`https://ecommerce-qrcj.onrender.com/api/address/get`)
+        fetch(`https://ecommercewebbackend.vercel.app/api/address/get`)
         .then((res) => res.json())
         .then((asds) => setAddress(asds));
        },[]);
@@ -48,7 +48,7 @@ function Profile() {
        const address = async(e) => {
         e.preventDefault();
     
-        const addresspost = await axios.post(`https://ecommerce-qrcj.onrender.com/api/address/post`,{
+        const addresspost = await axios.post(`https://ecommercewebbackend.vercel.app/api/address/post`,{
           door_no, street_name, city, state, country, pincode, clientId: localStorage.getItem("id")
         });
        
@@ -60,7 +60,7 @@ function Profile() {
 
        const adddel = () => {
         const del = axios
-          .delete(`https://ecommerce-qrcj.onrender.com/api/address/delete${ids}`);
+          .delete(`https://ecommercewebbackend.vercel.app/api/address/delete${ids}`);
           notify()
           return del;
        }

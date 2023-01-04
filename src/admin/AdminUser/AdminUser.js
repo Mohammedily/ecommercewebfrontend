@@ -9,7 +9,7 @@ function AdminUser() {
     const [user, setUser]  = useState([]);
 
     useEffect(() => {
-        fetch(`https://ecommerce-qrcj.onrender.com/api/sign/get`)
+        fetch(`https://ecommercewebbackend.vercel.app/api/sign/get`)
         .then((res) => res.json())
         .then((asd) => setUser(asd.data));
     },[]);
@@ -46,7 +46,7 @@ function User({users}){
 
 
     const block = () => {
-        const del = axios.delete(`https://ecommerce-qrcj.onrender.com/api/sign/delete/${users._id}`)
+        const del = axios.delete(`https://ecommercewebbackend.vercel.app/api/sign/delete/${users._id}`)
         notify()
         return del;
     }
