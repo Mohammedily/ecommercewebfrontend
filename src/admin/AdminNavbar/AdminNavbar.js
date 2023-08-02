@@ -13,13 +13,13 @@ function AdminNAvbar() {
   return (
     <nav class="navbar navbar-light bg-light fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" id="navbar-branda" href="/admin/home">AOO... Admin Page</a>
+    <a class="navbar-brand" id="navbar-branda" href="/admin/home">Ecom Admin Page</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar" id="naca"><MenuIcon id="menu" /></span>
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title"  id="offcanvasNavbarLabel" >AOO...</h5>
+        <h5 class="offcanvas-title"  id="offcanvasNavbarLabel" >Ecom</h5>
         <button type="button" id="reset" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">

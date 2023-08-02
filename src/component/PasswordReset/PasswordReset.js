@@ -74,13 +74,13 @@ function PasswordReset() {
     <div className="container-fluid h-custom">
       <div className="row d-flex justify-content-center align-items-center h-100" >
         <div className="col-md-9 col-lg-6 col-xl-5">
-        <h2 id="aoo-">AOO... </h2>
+        <h2 id="aoo-">Ecom</h2>
           <h3 id="aoos">Forgot-Password</h3>
           <h3 id="aooss">Page</h3>
         </div>
         <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form onSubmit={handleSubmit}>
-          <h3 id="asxa">AOO... Forgot Password </h3>
+          <h3 id="asxa">Ecom Forgot Password </h3>
             <div className="form-outline mb-4">
               <input type="password" id="form3Example3" className="form-control form-control-lg"
                 placeholder="Enter New Password" value={password} onChange={(e) => setPassword(e.target.value)} required/>

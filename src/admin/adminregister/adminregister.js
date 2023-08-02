@@ -44,13 +44,13 @@ function Adminregister() {
     <div className="container-fluid h-custom">
       <div className="row d-flex justify-content-center align-items-center h-100" >
         <div className="col-md-9 col-lg-6 col-xl-5">
-        <h2 id="aoo-">AOO... </h2>
+        <h2 id="aoo-">Ecom </h2>
           <h3 id="aoos">Admin</h3>
           <h3 id="aooss">Page</h3>
         </div>
         <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form onSubmit={post}>
-          <h3 id="asxa">AOO... Admin Signin</h3>
+          <h3 id="asxa">Ecom Admin Signin</h3>
 
           <div className="form-outline mb-4">
               <input type="text" id="form3Example3" className="form-control form-control-lg"
