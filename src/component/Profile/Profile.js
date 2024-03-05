@@ -32,7 +32,7 @@ function Profile() {
         });
 
     useEffect(() => {
-        fetch(`https://ecommercewebbackend.vercel.app/api/sign/${id}`)
+        fetch(`https://ecommerce-qrcj.onrender.com/api/sign/${id}`)
         .then((res) => res.json())
         .then((asd) => setProf(asd.user));
     }, [id]);
