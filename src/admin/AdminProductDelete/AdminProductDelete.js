@@ -11,7 +11,7 @@ function AdminProductDelete() {
   
 
     useEffect(() => {
-      fetch(`https://ecommercewebbackend.vercel.app/api/product/get`)
+      fetch(`https://ecommerce-qrcj.onrender.com/api/product/get`)
       .then((res) => res.json())
       .then((asd) => setProduct(asd.product));
     },[]);
@@ -48,7 +48,7 @@ function ProductCart({datas}) {
         });
 
     const productdeletes = () => {
-        const deletes = axios.delete(`https://ecommercewebbackend.vercel.app/api/product/delete/${datas._id}`)
+        const deletes = axios.delete(`https://ecommerce-qrcj.onrender.com/api/product/delete/${datas._id}`)
        notify()
         return deletes;
     }
