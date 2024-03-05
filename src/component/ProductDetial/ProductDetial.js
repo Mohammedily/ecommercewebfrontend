@@ -33,7 +33,7 @@ function ProductDetial() {
 
     useEffect(() => {
       setTimeout(() => {
-        fetch(`https://ecommercewebbackend.vercel.app/api/product/${id}`)
+        fetch(`https://ecommerce-qrcj.onrender.com/api/product/${id}`)
         .then((res) => res.json())
         .then((as) => {setApi(as.data)
         setLoading(false)
