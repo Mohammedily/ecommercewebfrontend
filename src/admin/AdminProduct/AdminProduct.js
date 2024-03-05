@@ -31,7 +31,7 @@ function AdminProduct() {
    const productpost = async(e) => {
     e.preventDefault();
     try {
-      const post = await axios.post(`https://ecommercewebbackend.vercel.app/api/product/post`, {
+      const post = await axios.post(`https://ecommerce-qrcj.onrender.com/api/product/post`, {
         name, price, image_1, image_2, image_3, category,discount, description, adminId: localStorage.getItem("adminid")
       })
       if(post.status === 201){
