@@ -34,7 +34,7 @@ function Cart() {
 
     useEffect(() => {
     setTimeout(() => {
-      fetch(`https://ecommercewebbackend.vercel.app/api/cart/get`)
+      fetch(`https://ecommerce-qrcj.onrender.com/api/cart/get`)
       .then((res) => res.json())
        .then((asd) => {
         setCart(asd.cart)
@@ -44,7 +44,7 @@ function Cart() {
 
     useEffect(() => {
       setTimeout(() => {
-        fetch(`https://ecommercewebbackend.vercel.app/api/address/get`)
+        fetch(`https://ecommerce-qrcj.onrender.com/api/address/get`)
         .then((res) => res.json())
         .then((asds) => {setAddress(asds)
         });
@@ -61,7 +61,7 @@ function Cart() {
    const address = async(e) => {
     e.preventDefault();
 
-    const addresspost = await axios.post(`https://ecommercewebbackend.vercel.app/api/address/post`,{
+    const addresspost = await axios.post(`https://ecommerce-qrcj.onrender.com/api/address/post`,{
       door_no, street_name, city, state, country, pincode, clientId: localStorage.getItem("id")
     });
    
@@ -78,7 +78,7 @@ function Cart() {
    const stripe = 'pk_test_51BTUDGJAJfZb9HEBwDg86TN1KNprHjkfipXmEDMb0gSCassK5T3ZfxsAbcgKVmAIXF7oZ6ItlZZbXO6idTHE67IM007EwQ4uN3';
     
     const orderpost = async(token) => {
-    const order = await axios.post(`https://ecommercewebbackend.vercel.app/api/order/post`, {
+    const order = await axios.post(`https://ecommerce-qrcj.onrender.com/api/order/post`, {
      stripe_id: stripe,  name: localStorage.getItem("username"),address: assas, product: cartdata, totalAmount: totalprice, token, userId: localStorage.getItem("id")
     });
    notify()
@@ -161,7 +161,7 @@ export default Cart;
 function CartDetial({ carts }) {
 
  const cartdelete = async() => {
-  const del = await axios.delete(`https://ecommercewebbackend.vercel.app/api/cart/delete/${carts._id}`);
+  const del = await axios.delete(`https://ecommerce-qrcj.onrender.com/api/cart/delete/${carts._id}`);
 if(del.status === 200){
   window.location.href="/home"
 }
