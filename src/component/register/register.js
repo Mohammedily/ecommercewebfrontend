@@ -35,7 +35,7 @@ function Register() {
      e.preventDefault();
  
      try {
-         const posts = await axios.post(`https://ecommercewebbackend.vercel.app/api/signup`, 
+         const posts = await axios.post(`https://ecommerce-qrcj.onrender.com/api/signup`, 
          {username, email, password});
           
          if(posts.status === 201){
