@@ -9,7 +9,7 @@ function Order() {
    const id = localStorage.getItem("id")
 
      useEffect(() => {
-      axios.get(`https://ecommercewebbackend.vercel.app/api/order/findget/${id}`)
+      axios.get(`https://ecommerce-qrcj.onrender.com/api/order/findget/${id}`)
   
      .then((asd) => setOrder(asd.data.o))
 
