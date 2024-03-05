@@ -33,7 +33,7 @@ function Login() {
      e.preventDefault();
  
      try {
-         const posts = await axios.post(`https://ecommercewebbackend.vercel.app/api/signin`, 
+         const posts = await axios.post(`https://ecommerce-qrcj.onrender.com/api/signin`, 
          { email, password});
          if(posts.status === 201){
            notify()
