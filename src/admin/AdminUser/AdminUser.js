@@ -9,7 +9,7 @@ function AdminUser() {
     const [user, setUser]  = useState([]);
 
     useEffect(() => {
-        fetch(`https://ecommercewebbackend.vercel.app/api/sign/get`)
+        fetch(`https://ecommerce-qrcj.onrender.com/api/sign/get`)
         .then((res) => res.json())
         .then((asd) => setUser(asd.data));
     },[]);
