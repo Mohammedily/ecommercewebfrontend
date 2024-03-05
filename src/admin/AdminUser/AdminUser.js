@@ -46,7 +46,7 @@ function User({users}){
 
 
     const block = () => {
-        const del = axios.delete(`https://ecommercewebbackend.vercel.app/api/sign/delete/${users._id}`)
+        const del = axios.delete(`https://ecommerce-qrcj.onrender.com/api/sign/delete/${users._id}`)
         notify()
         return del;
     }
