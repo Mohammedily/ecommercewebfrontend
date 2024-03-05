@@ -9,7 +9,7 @@ function PaymentDetial() {
    
 
     useEffect(() => {
-        fetch(`https://ecommercewebbackend.vercel.app/api/order/get`)
+        fetch(`https://ecommerce-qrcj.onrender.com/api/order/get`)
         .then((res) => res.json())
         .then((asd) => setPayment(asd.as));
     },[]);
