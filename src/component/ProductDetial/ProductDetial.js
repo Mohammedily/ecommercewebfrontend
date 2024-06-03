@@ -46,7 +46,7 @@ function ProductDetial() {
 
     useEffect(() => {
       setTimeout(() => {
-        fetch(`https://ecommercewebbackend.vercel.app/api/product/get/api`)
+        fetch(`https://ecommerce-qrcj.onrender.com/api/product/get/api`)
         .then((res) => res.json())
         .then((product) => {setData(product)
        setISLodaing(false)
@@ -59,7 +59,7 @@ function ProductDetial() {
     console.log(datas);
 
     const cart = async() => {
-        const cartpost = await axios.post(`https://ecommercewebbackend.vercel.app/api/cart/post`, {
+        const cartpost = await axios.post(`https://ecommerce-qrcj.onrender.com/api/cart/post`, {
           name: api.name, price: api.price, image_1: api.image_1, category: api.category, description: api.description, qty,size: size.toUpperCase(), discount: api.discount, adminId: api.adminId, clientId: localStorage.getItem("id")
         })
 
