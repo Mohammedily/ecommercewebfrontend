@@ -83,7 +83,7 @@ function Register() {
   
   
             <div className="text-center text-lg-start mt-4 pt-2">
-              <button type="submit" id="azz"  className="btn btn-lg" style={{paddingLeft: "2.5rem", paddingRight: "2.5rem"}}>Login</button>
+              <button type="submit" id="azz"  className="btn btn-lg" style={{paddingLeft: "2.5rem", paddingRight: "2.5rem"}}>Register</button>
               <p className="small fw-bold mt-2 pt-1 mb-0">Already have an account? <a href="/signin"
                   className="link-danger">Login</a></p>
             </div>
